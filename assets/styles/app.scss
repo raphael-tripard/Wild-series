@@ -1,0 +1,17 @@
+// customize some Bootstrap variables
+$primary: #3d5c8a;
+$secondary: #484f64;
+$third: #967474;
+$fourth: hsl(140, 48%, 32%);
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": #e97313
+);
+
+body {
+    background-color: $fourth;
+}
